@@ -1,0 +1,6 @@
+• hello.mod.c , (C code, system generated structure)
+• hello.ko, (old one was .o file, in new kernel module is coming in .ko file)
+• modules.order, (give path of our .o file, ex: Kernel//home//folder//hello.o)
+• hello.ko, (Kernel module extension)
+• hello.mod.o, (object file of mod.c)
+• Module.symvers
