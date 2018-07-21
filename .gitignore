@@ -10,3 +10,6 @@
 *.cache.mk
 .tmp_versions/
 
+// Ignore all swap files
+*.swp
+
