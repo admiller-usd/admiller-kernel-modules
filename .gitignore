@@ -8,5 +8,5 @@
 *.order
 *.symvers
 *.cache.mk
-*.tmp_versions/
+.tmp_versions/
 
