@@ -1,7 +1,6 @@
 #include <linux/module.h> /* Needed by all modules */
 #include <linux/kernel.h> /* Needed for KERN_INFO */
 
-
 int init_module(void)
 {
   printk(KERN_INFO "Hello world!.\n");
@@ -15,3 +14,8 @@ void cleanup_module(void)
 {
   printk(KERN_INFO "Goodbye world!.\n");
 }
+
+// Macros to declare license and author
+MODULE_LICENSE("GPL");
+MODULE_DESCRIPTION("Simple Module");
+MODULE_AUTHOR("Austin Miller");
