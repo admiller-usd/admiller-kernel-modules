@@ -1,8 +1,13 @@
-/*******************************************************
- *                Cyber 570: Assignment 1
- *                 Author: Austin Miller
+/********************************************************************
+ *                       Cyber 570: Assignment 1
+ *                        Author: Austin Miller
+ *          
+ *  References:
+ *      -- Silberschatz, Operating System Concepts, Enhanced eText, 
+ *      10th Edition. Wiley, 2018-04-04.   
+ *      
  *
- ******************************************************/
+ ********************************************************************/
 // Include Libraries
 #include <linux/module.h> /* Needed by all modules */
 #include <linux/kernel.h> /* Needed for KERN_INFO */
