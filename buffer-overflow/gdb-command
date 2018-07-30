@@ -1,0 +1,11 @@
+// Create a file with a bunch of text
+python -c "print 'A'*416" > textfile
+
+// Run GDB on the binary
+gdb -q ./bufferoverflow
+
+// Trigger segfault
+run < textfile
+
+// Inspect the registers
+info registers
